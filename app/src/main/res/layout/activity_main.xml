@@ -16,7 +16,7 @@
         android:src="@mipmap/ic_launcher_round" />
 
     <TextView
-        android:id="@+id/tv_login"
+        android:id="@+id/tv_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -62,6 +62,7 @@
             android:orientation="horizontal">
 
             <android.widget.Button
+                android:id="@+id/btn_login"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -71,12 +72,13 @@
                 android:textColor="#fff" />
 
             <android.widget.Button
+                android:id="@+id/btn_view"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_weight="1"
                 android:background="@drawable/main_bg"
-                android:text="Sign Up"
+                android:text="View Data"
                 android:elevation="20dp"
                 android:textColor="#fff" />
 
