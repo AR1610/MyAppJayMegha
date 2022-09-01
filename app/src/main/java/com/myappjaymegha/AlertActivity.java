@@ -69,8 +69,6 @@ public class AlertActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
        // super.onBackPressed();
-
-
         AlertDialog.Builder builder= new AlertDialog.Builder(AlertActivity.this);
         builder.setIcon(R.mipmap.ic_launcher_round);
         builder.setMessage("Are you sure, You want to exit this App ?");

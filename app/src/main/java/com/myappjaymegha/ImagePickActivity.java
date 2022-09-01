@@ -12,17 +12,19 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class ImagePickActivity extends AppCompatActivity {
 
     Button btnGallery, btnCamera;
-    ImageView imgDp;
+    CircleImageView imgDp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_pick);
         btnGallery = findViewById(R.id.btn_gallery);
-        imgDp = findViewById(R.id.img_dp);
+        imgDp = findViewById(R.id.profile_image);
         btnCamera = findViewById(R.id.btn_camera);
         btnCamera.setOnClickListener(new View.OnClickListener() {
             @Override
