@@ -22,4 +22,20 @@
         android:text="Date"
         android:layout_marginTop="30dp"
         android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time"
+        android:background="@android:drawable/editbox_background_normal"
+        android:padding="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_time"
+        android:text="Time"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
 </LinearLayout>

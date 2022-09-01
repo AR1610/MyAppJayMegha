@@ -25,13 +25,13 @@
             android:name=".SeekbarActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".DateTimeActivity"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".DateTimeActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
