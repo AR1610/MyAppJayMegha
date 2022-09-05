@@ -60,8 +60,5 @@ public class SpinnerActivity extends AppCompatActivity {
 
             }
         });
-
-
-
     }
 }
