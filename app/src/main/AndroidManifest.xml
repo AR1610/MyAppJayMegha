@@ -28,7 +28,7 @@
             android:name=".ImagePickActivity"
             android:exported="false" />
         <activity
-            android:name=".AlertActivity"
+            android:name=".GridViewActivity"
             android:exported="false" />
         <activity
             android:name=".SeekbarActivity"
@@ -40,7 +40,7 @@
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".GridViewActivity"
+            android:name=".AlertActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
