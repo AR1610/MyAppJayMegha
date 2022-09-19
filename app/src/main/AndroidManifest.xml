@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MyAppJayMegha"
         tools:targetApi="31">
         <activity
+            android:name=".FragmentLoagwithJavaActivity"
+            android:exported="false" />
+        <activity
             android:name=".FragmentLoadWithXmlActivity"
             android:exported="false" />
         <activity
@@ -61,7 +64,7 @@
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".FragmentLoagwithJavaActivity"
+            android:name=".TabLayoutWithViewPagerActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
